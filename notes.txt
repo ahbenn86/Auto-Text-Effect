@@ -1,0 +1,8 @@
+div {
+    postion: absolute;
+    bottom: 20px;               //When the block is positioned absolute, simply using bottom, top, etc. will define the positioning.
+}
+
+<input type="number" name="speed" id="speed" value="1" min="1" max="5" step="1"> //Created a counter
+
+speedEl.addEventListener('input', (e) => speed = 300 / e.target.value) // The add event listener is listening to either the user's input or in the case that an event takes place on the target value. 
